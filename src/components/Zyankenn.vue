@@ -8,10 +8,7 @@
         </select>
         <span>あなたが選んだのは...{{ selectedJapanese }}</span>
         <p>
-            <button @click="start">ポンッ…</button>
-        </p>
-        <p>
-            {{  }}
+            <v-btn @click="start">ポンッ…</v-btn>
         </p>
     </div>
 </template>
